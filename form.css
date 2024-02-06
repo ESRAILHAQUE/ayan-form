@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,main,footer{
+    margin: 1rem  3rem;
+}
+.header-title,.dept-title{
+    text-align: center;
+}
+.date{
+    text-align: right;
+    margin-right: 5rem;
+    margin-bottom: .5rem;
+}
+.clear{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+input{
+    border: none;
+    border-bottom: 1px  dotted;
+    outline: none;
+}
+table{
+    margin-top: 2rem;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+table tr td{
+    padding: 7px;
+}
+.signature{
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid;
+    margin-top: 25px;
+    background: #FFB7B1;
+    color: indigo;
+    
+}
+button:hover{
+    background: none;
+    color: #FFB7B1;
+    
+}
+.btn{
+    text-align: center;
+}
